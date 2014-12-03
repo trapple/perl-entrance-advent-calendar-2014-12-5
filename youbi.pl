@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use utf8;
 use Time::Piece;
-binmode STDOUT, 'utf8';
+binmode STDOUT, ':utf8';
 
 main() unless caller;
 

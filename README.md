@@ -38,7 +38,7 @@
 use strict;
 use warnings;
 use utf8;
-binmode STDOUT, 'utf8';
+binmode STDOUT, ':utf8';
 
 chomp( my $input = <STDIN> );
 if ( my $youbi_j = translate($input) ) {
@@ -67,7 +67,10 @@ sub translate {
 }
 ```
 
-主にこれまで習ったことだけで出来てるので、解説は必要なさそうです。
+主にこれまで習ったことだけで出来てます。
+`exists`は ハッシュのキーが存在するかどうかを調べる関数でしたね。
+`%youbi`にキー`mon`~`fri`があればそのvalueを返す。無ければ未定義値`undef`を返しています。
+`return;`は`return undef;`の省略形になります。
 
 ### テストする
 講義では、このサブルーチンtranslate()が正しく実装できているかを確認するコードを書きましょう、といった追加問題がありました。これがいわゆるテストです。
