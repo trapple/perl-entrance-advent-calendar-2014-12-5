@@ -3,15 +3,19 @@ use warnings;
 use utf8;
 binmode STDOUT, 'utf8';
 
-chomp(my $input = <STDIN>);
-if( my $youbi_j = translate($input) ) {
-  print "$input は $youbi_j です\n";
-}else{
-  print "変換できませんでした\n";
+main() unless caller;
+
+sub main {
+  chomp( my $input = <STDIN> );
+  if ( my $youbi_j = translate($input) ) {
+    print "$input は $youbi_j です\n";
+  } else {
+    print "変換できませんでした\n";
+  }
 }
 
 sub translate {
-  my $str = shift;
+  my $str   = shift;
   my %youbi = (
     mon => '月曜日',
     tue => '火曜日',
@@ -22,9 +26,9 @@ sub translate {
     sun => '日曜日',
   );
 
-  if( exists $youbi{$str} ){
+  if ( exists $youbi{$str} ) {
     return $youbi{$str};
-  }else{
+  } else {
     return;
   }
 }
