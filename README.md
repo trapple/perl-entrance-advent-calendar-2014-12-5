@@ -340,8 +340,8 @@ Time::Pieceというモジュールを使ってみましょう。
 そうしないと、テストも全部書き直しになってしまいます（仕方ない場合もありますが）
 
 以上、超テスト入門でした。
-何かわからない部分などがあったらコメントに残してもらったり、Perl入学式に遊びに来ていただけると！
-明日は・・・誰もいないですね。明後日はtomcha_さんです！
+何かわからない部分などがあったらコメントに残してもらったり、Perl入学式に遊びに来て質問していただけると！
+明日は飛び入りが無ければお休みで、明後日は tomcha_ さんです！
 
 
 ---
@@ -350,9 +350,9 @@ Time::Pieceというモジュールを使ってみましょう。
 ---
 
 ## 参考リンク
-[perl でテストを始めよう！！ - 2011 advent calendar test](http://perl-users.jp/articles/advent-calendar/2011/test/1)
-[PerlでTDD(テスト駆動開発)するなら覚えておきたいCPANモジュール群 - hirobanex.net](http://hirobanex.net/article/2012/08/1343880047)
-[Perl のテストについて(2011年改訂版1) - tsucchiの日記](http://d.hatena.ne.jp/tsucchi1022/20110410/1302395894)
-[perl のモジュールインポートまわりの整理 - Please Sleep](http://please-sleep.cou929.nu/perl-module-loading-and-exporting.html)
-[Perlで一枚岩のスクリプトをテスタブルにする - おそらくはそれさえも平凡な日々](http://www.songmu.jp/riji/entry/2014-08-14-test-perl-script.html)
-[perl - $scalarの中身が数値か否かを判定する - 404 Blog Not Found](http://blog.livedoor.jp/dankogai/archives/50916183.html)
+
+- [perl でテストを始めよう！！ - 2011 advent calendar test](http://perl-users.jp/articles/advent-calendar/2011/test/1)
+- [PerlでTDD(テスト駆動開発)するなら覚えておきたいCPANモジュール群 - hirobanex.net](http://hirobanex.net/article/2012/08/1343880047)
+- [Perl のテストについて(2011年改訂版1) - tsucchiの日記](http://d.hatena.ne.jp/tsucchi1022/20110410/1302395894)
+- [Perlで一枚岩のスクリプトをテスタブルにする - おそらくはそれさえも平凡な日々](http://www.songmu.jp/riji/entry/2014-08-14-test-perl-script.html)
+- [perl のモジュールインポートまわりの整理 - Please Sleep](http://please-sleep.cou929.nu/perl-module-loading-and-exporting.html)
