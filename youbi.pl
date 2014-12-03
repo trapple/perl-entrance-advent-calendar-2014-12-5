@@ -6,16 +6,16 @@ binmode STDOUT, 'utf8';
 main() unless caller;
 
 sub main {
-  chomp( my $input = <STDIN> );
-  if ( my $youbi_j = translate($input) ) {
+  chomp(my $input = <STDIN>);
+  if( my $youbi_j = translate($input) ) {
     print "$input は $youbi_j です\n";
-  } else {
+  }else{
     print "変換できませんでした\n";
   }
 }
 
 sub translate {
-  my $str   = shift;
+  my $str = shift;
   my %youbi = (
     mon => '月曜日',
     tue => '火曜日',
@@ -26,9 +26,9 @@ sub translate {
     sun => '日曜日',
   );
 
-  if ( exists $youbi{$str} ) {
-    return $youbi{$str};
-  } else {
+  if( exists $youbi{lc $str} ){
+    return $youbi{lc $str};
+  }else{
     return;
   }
 }
