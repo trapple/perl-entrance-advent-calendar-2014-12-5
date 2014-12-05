@@ -328,8 +328,8 @@ Time::Pieceというモジュールを使ってみましょう。
 
 ### 解答例
 
-[youbi.pl](https://github.com/trapple/perl-entrance-advent-calendar-2014-12-5/blob/2.0.0/youbi.pl)
-[youbi.t](https://github.com/trapple/perl-entrance-advent-calendar-2014-12-5/blob/2.0.0/youbi.t)
+[youbi.pl](https://github.com/trapple/perl-entrance-advent-calendar-2014-12-5/blob/2.0.1/youbi.pl)
+[youbi.t](https://github.com/trapple/perl-entrance-advent-calendar-2014-12-5/blob/2.0.1/youbi.t)
 
 こんな感じでしょうか？ポイントだけ説明しますと
 
