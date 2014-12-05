@@ -351,7 +351,7 @@ Perl入学式は今回のように練習問題で手を動かしながら、そ�
 
 明日は飛び入りが無ければお休みで、明後日は tomcha_ さんです！
 
-[Perl入学式](http://www.perl-entrance.org/)
+[Perl入学式のサイトはこちら！](http://www.perl-entrance.org/)
 
 
 ---
