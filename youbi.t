@@ -21,6 +21,7 @@ subtest 'translate', sub {
   is( translate("MON"), "月曜日", "MON => 月曜日" );
   is( translate("MoN"), "月曜日", "MoN => 月曜日" );
   is( translate("Wed"), "水曜日", "Wed => 水曜日" );
+
 };
 
 subtest 'validate', sub {

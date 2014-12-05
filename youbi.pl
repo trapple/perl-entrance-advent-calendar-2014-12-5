@@ -41,11 +41,11 @@ sub validate {
     my $t;
     eval { $t = Time::Piece->strptime( "$1-$2-$3", '%Y-%m-%d' ); };
     if ($@) {
-      return undef;
+      return;
     }
     return $t;
   } else {
-    return undef;
+    return;
   }
 }
 
